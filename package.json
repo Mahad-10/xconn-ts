@@ -7,7 +7,7 @@
   "types": "types/index.d.ts",
   "scripts": {
     "postinstall": "tsc --outDir ./ts-built",
-    "build": "tsc",
+    "build": "tsup lib/index.ts --dts --format esm --outDir ts-built",
     "test": "NODE_OPTIONS=--experimental-vm-modules jest ./lib/* ./tests/*",
     "lint": "eslint . --ext .ts",
     "lint-fix": "eslint . --ext .ts --fix"
@@ -29,6 +29,7 @@
     "@typescript-eslint/parser": "^7.13.0",
     "eslint": "^8.57.0",
     "jest": "^29.7.0",
-    "ts-jest": "^29.1.4"
+    "ts-jest": "^29.1.4",
+    "tsup": "^8.5.0"
   }
 }
