@@ -6,7 +6,7 @@
   "main": "ts-built/index.js",
   "types": "types/index.d.ts",
   "scripts": {
-    "postinstall": "tsc --outDir ./ts-built",
+    "postinstall": "tsup lib/index.ts --dts --format esm --outDir ts-built",
     "build": "tsup lib/index.ts --dts --format esm --outDir ts-built",
     "test": "NODE_OPTIONS=--experimental-vm-modules jest ./lib/* ./tests/*",
     "lint": "eslint . --ext .ts",
