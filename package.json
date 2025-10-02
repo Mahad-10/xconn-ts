@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "description": "XConn",
   "main": "ts-built/index.js",
-  "types": "types/index.d.ts",
+  "types": "ts-built/index.d.ts",
   "scripts": {
     "postinstall": "tsc --outDir ./ts-built",
     "build": "tsc",
