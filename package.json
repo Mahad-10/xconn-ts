@@ -15,6 +15,7 @@
   "author": "Mahad Munir <mahad@xconn.io>",
   "license": "MIT",
   "dependencies": {
+    "tsup": "^8.5.0",
     "typescript": "^5.5.3",
     "wampproto": "github:xconnio/wampproto-ts#ae3ec41401ab8f7e02f7a8b0286073e3794ee839",
     "ws": "^8.18.0"
@@ -29,7 +30,6 @@
     "@typescript-eslint/parser": "^7.13.0",
     "eslint": "^8.57.0",
     "jest": "^29.7.0",
-    "ts-jest": "^29.1.4",
-    "tsup": "^8.5.0"
+    "ts-jest": "^29.1.4"
   }
 }
