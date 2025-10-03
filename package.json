@@ -24,7 +24,7 @@
   "dependencies": {
     "tsup": "^8.5.0",
     "typescript": "^5.5.3",
-    "wampproto": "github:xconnio/wampproto-ts#135969f3a9ab749970889713788e9cd370568d51",
+    "wampproto": "github:mahad-10/wampproto-ts#135969f3a9ab749970889713788e9cd370568d51",
     "ws": "^8.18.0"
   },
   "devDependencies": {
