@@ -4,7 +4,14 @@
   "version": "0.1.0",
   "description": "XConn",
   "main": "ts-built/index.js",
-  "types": "types/index.d.ts",
+  "types": "ts-built/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./ts-built/index.js",
+      "require": "./ts-built/index.js",
+      "types": "./ts-built/index.d.ts"
+    }
+  },
   "scripts": {
     "postinstall": "tsup",
     "build": "tsc",
